@@ -19,6 +19,28 @@ public class Movement : MonoBehaviour
         if (!stop)
         {
             transform.Translate(Time.deltaTime * speed * Vector3.forward);
+            if (transform.eulerAngles.y == 0 || transform.eulerAngles.y == 180)
+            {
+                if (Input.GetKeyDown(KeyCode.RightArrow))
+                {
+                    transform.eulerAngles = new Vector3(0, 0, 0);
+                }
+                else if (Input.GetKeyDown(KeyCode.LeftArrow))
+                {
+                    transform.eulerAngles = new Vector3(0, 180, 0);
+                }
+            }
+            else
+            {
+                if (Input.GetKeyDown(KeyCode.UpArrow))
+                {
+                    transform.eulerAngles = new Vector3(0, 270, 0);
+                }
+                else if (Input.GetKeyDown(KeyCode.DownArrow))
+                {
+                    transform.eulerAngles = new Vector3(0, 90, 0);
+                }
+            }
         }
     }
 }
