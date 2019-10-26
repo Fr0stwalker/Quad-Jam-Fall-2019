@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class Stop : MonoBehaviour
 {
-    [SerializeField] private bool canGoLeft;
-    [SerializeField] private bool canGoRight;
-    [SerializeField] private bool canGoUp;
-    [SerializeField] private bool canGoDown;
+    [SerializeField] private bool leftBlocked;
+    [SerializeField] private bool rightBlocked;
+    [SerializeField] private bool upBlocked;
+    [SerializeField] private bool downBlocked;
     [SerializeField] private bool triggerArmed=true;
     private GameObject player;
     private bool playerInStopZone;
@@ -18,6 +18,22 @@ public class Stop : MonoBehaviour
         {
             if (other.CompareTag("Player"))
             {
+                if (other.transform.eulerAngles.y == 180 && !leftBlocked)
+                {
+                    return;
+                }
+                if (other.transform.eulerAngles.y == 270 && !upBlocked)
+                {
+                    return;
+                }
+                if (other.transform.eulerAngles.y == 0 && !rightBlocked)
+                {
+                    return;
+                }
+                if (other.transform.eulerAngles.y == 90 && !downBlocked)
+                {
+                    return;
+                }
                 if (other.transform.position.z <= transform.position.z)
                 {
                     //StartCoroutine(MovePlayerToCenter());
@@ -45,26 +61,26 @@ public class Stop : MonoBehaviour
     {
         if (playerInStopZone)
         {
-            if (Input.GetKeyDown(KeyCode.UpArrow) && canGoUp)
+            if (Input.GetKeyDown(KeyCode.UpArrow) && !upBlocked)
             {
                 playerInStopZone = false;
                 player.transform.eulerAngles=new Vector3(0,270,0);
                 player.GetComponent<Movement>().stop = false;
             }
 
-            else if (Input.GetKeyDown(KeyCode.RightArrow) && canGoRight)
+            else if (Input.GetKeyDown(KeyCode.RightArrow) && !rightBlocked)
             {
                 playerInStopZone = false;
                 player.transform.eulerAngles = new Vector3(0, 0, 0);
                 player.GetComponent<Movement>().stop = false;
             }
-            else if (Input.GetKeyDown(KeyCode.LeftArrow) && canGoLeft)
+            else if (Input.GetKeyDown(KeyCode.LeftArrow) && !leftBlocked)
             {
                 playerInStopZone = false;
                 player.transform.eulerAngles = new Vector3(0, 180, 0);
                 player.GetComponent<Movement>().stop = false;
             }
-            else if (Input.GetKeyDown(KeyCode.DownArrow) && canGoDown)
+            else if (Input.GetKeyDown(KeyCode.DownArrow) && !downBlocked)
             {
                 playerInStopZone = false;
                 player.transform.eulerAngles = new Vector3(0, 90, 0);
