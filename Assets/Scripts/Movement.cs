@@ -23,7 +23,7 @@ public class Movement : MonoBehaviour
             else if (Input.GetKeyDown(KeyCode.LeftArrow) && !Physics.Raycast(transform.position, transform.TransformDirection(Vector3.left), .5f))
             {
             transform.eulerAngles = new Vector3(0, transform.eulerAngles.y - 90f, 0);
-        }
+            }
             //if (Input.GetKeyDown(KeyCode.UpArrow))
             //{
             //    transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + 180f, 0);
