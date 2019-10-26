@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Michal Sandbox.unity
+    guid: 5ce80c052ee36f74ca9b03930d8ac36a
   m_configObjects: {}
