@@ -11,6 +11,8 @@ public class EatEnemy : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Score score = FindObjectOfType<Score>();
+            AudioManager audioManager = FindObjectOfType<AudioManager>();
+            audioManager.PlayEatBallDudeSound();
             score.SetScore(scoreAwardedToPlayer);
             Destroy(gameObject);
         }

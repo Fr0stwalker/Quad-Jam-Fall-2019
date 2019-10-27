@@ -12,9 +12,12 @@ public class Timer : MonoBehaviour
     private float actualTime;
 
     private UpdateTimerText updateTimerText;
+
+    private AudioManager audioManager;
     private void Start()
     {
         updateTimerText = FindObjectOfType<UpdateTimerText>();
+        audioManager = FindObjectOfType<AudioManager>();
         actualTime = seconds + (minutes * 60);
         Debug.Log("Actual time:"+actualTime);
     }
@@ -29,6 +32,8 @@ public class Timer : MonoBehaviour
         }
         else
         {
+            audioManager.StopMainLoop();
+            audioManager.PlayGameOverSound();
             gameOverCanvas.SetActive(true);
         }
     }
