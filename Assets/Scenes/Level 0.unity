@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 26173276}
   - component: {fileID: 26173275}
   - component: {fileID: 26173274}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -272,7 +272,7 @@ GameObject:
   - component: {fileID: 31886320}
   - component: {fileID: 31886319}
   - component: {fileID: 31886318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -364,7 +364,7 @@ GameObject:
   - component: {fileID: 40255352}
   - component: {fileID: 40255351}
   - component: {fileID: 40255350}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -456,7 +456,7 @@ GameObject:
   - component: {fileID: 40499489}
   - component: {fileID: 40499488}
   - component: {fileID: 40499487}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -548,7 +548,7 @@ GameObject:
   - component: {fileID: 56986622}
   - component: {fileID: 56986621}
   - component: {fileID: 56986620}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -640,7 +640,7 @@ GameObject:
   - component: {fileID: 67958852}
   - component: {fileID: 67958851}
   - component: {fileID: 67958850}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -766,7 +766,7 @@ GameObject:
   - component: {fileID: 98517652}
   - component: {fileID: 98517651}
   - component: {fileID: 98517650}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -933,7 +933,7 @@ GameObject:
   - component: {fileID: 146533832}
   - component: {fileID: 146533831}
   - component: {fileID: 146533830}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1025,7 +1025,7 @@ GameObject:
   - component: {fileID: 148103463}
   - component: {fileID: 148103462}
   - component: {fileID: 148103461}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1117,7 +1117,7 @@ GameObject:
   - component: {fileID: 154479738}
   - component: {fileID: 154479737}
   - component: {fileID: 154479736}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1301,7 +1301,7 @@ GameObject:
   - component: {fileID: 187268496}
   - component: {fileID: 187268495}
   - component: {fileID: 187268494}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1393,7 +1393,7 @@ GameObject:
   - component: {fileID: 190888290}
   - component: {fileID: 190888289}
   - component: {fileID: 190888288}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Water Tank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1485,7 +1485,7 @@ GameObject:
   - component: {fileID: 197336612}
   - component: {fileID: 197336611}
   - component: {fileID: 197336610}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Water Tank (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1565,98 +1565,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 197336608}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &201093977
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 201093981}
-  - component: {fileID: 201093980}
-  - component: {fileID: 201093979}
-  - component: {fileID: 201093978}
-  m_Layer: 0
-  m_Name: Lab Doors (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &201093978
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201093977}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &201093979
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201093977}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &201093980
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201093977}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &201093981
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201093977}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2, y: -0.008, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 847260536}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &210083300
 GameObject:
   m_ObjectHideFlags: 0
@@ -1669,7 +1577,7 @@ GameObject:
   - component: {fileID: 210083304}
   - component: {fileID: 210083303}
   - component: {fileID: 210083302}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1761,7 +1669,7 @@ GameObject:
   - component: {fileID: 217225309}
   - component: {fileID: 217225308}
   - component: {fileID: 217225307}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1853,7 +1761,7 @@ GameObject:
   - component: {fileID: 221259133}
   - component: {fileID: 221259132}
   - component: {fileID: 221259131}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2070,7 +1978,7 @@ GameObject:
   - component: {fileID: 238170544}
   - component: {fileID: 238170543}
   - component: {fileID: 238170542}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2162,7 +2070,7 @@ GameObject:
   - component: {fileID: 238675032}
   - component: {fileID: 238675031}
   - component: {fileID: 238675030}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2438,7 +2346,7 @@ GameObject:
   - component: {fileID: 258806922}
   - component: {fileID: 258806921}
   - component: {fileID: 258806920}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2530,7 +2438,7 @@ GameObject:
   - component: {fileID: 274905326}
   - component: {fileID: 274905325}
   - component: {fileID: 274905324}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2622,7 +2530,7 @@ GameObject:
   - component: {fileID: 282420106}
   - component: {fileID: 282420105}
   - component: {fileID: 282420104}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2807,7 +2715,7 @@ GameObject:
   - component: {fileID: 285164205}
   - component: {fileID: 285164204}
   - component: {fileID: 285164203}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3022,7 +2930,7 @@ GameObject:
   - component: {fileID: 297399194}
   - component: {fileID: 297399193}
   - component: {fileID: 297399192}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3222,7 +3130,7 @@ GameObject:
   - component: {fileID: 359200588}
   - component: {fileID: 359200587}
   - component: {fileID: 359200586}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3329,7 +3237,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 963194228}
   - {fileID: 287143710}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -3346,7 +3253,7 @@ GameObject:
   - component: {fileID: 363983922}
   - component: {fileID: 363983921}
   - component: {fileID: 363983920}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3438,7 +3345,7 @@ GameObject:
   - component: {fileID: 369684551}
   - component: {fileID: 369684550}
   - component: {fileID: 369684549}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3530,7 +3437,7 @@ GameObject:
   - component: {fileID: 379024676}
   - component: {fileID: 379024675}
   - component: {fileID: 379024674}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3622,7 +3529,7 @@ GameObject:
   - component: {fileID: 409746541}
   - component: {fileID: 409746540}
   - component: {fileID: 409746539}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3714,7 +3621,7 @@ GameObject:
   - component: {fileID: 422972284}
   - component: {fileID: 422972283}
   - component: {fileID: 422972282}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3806,7 +3713,7 @@ GameObject:
   - component: {fileID: 429723242}
   - component: {fileID: 429723241}
   - component: {fileID: 429723240}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3914,7 +3821,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 705507995}
-  - {fileID: 776336292}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3938,7 +3844,7 @@ PrefabInstance:
     - target: {fileID: 1011332406557021382, guid: 8ecc4399508ac8548b19930f6147df57,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1011332406557021382, guid: 8ecc4399508ac8548b19930f6147df57,
         type: 3}
@@ -4048,7 +3954,7 @@ PrefabInstance:
     - target: {fileID: 6715575826103111948, guid: 09b23526499038c43ac74a8fdfef3d27,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6715575826103111948, guid: 09b23526499038c43ac74a8fdfef3d27,
         type: 3}
@@ -4083,7 +3989,7 @@ GameObject:
   - component: {fileID: 469391466}
   - component: {fileID: 469391465}
   - component: {fileID: 469391464}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4360,7 +4266,7 @@ GameObject:
   - component: {fileID: 490629363}
   - component: {fileID: 490629362}
   - component: {fileID: 490629361}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4551,7 +4457,7 @@ GameObject:
   - component: {fileID: 522742205}
   - component: {fileID: 522742204}
   - component: {fileID: 522742203}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4724,7 +4630,7 @@ GameObject:
   - component: {fileID: 553876095}
   - component: {fileID: 553876094}
   - component: {fileID: 553876093}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4816,7 +4722,7 @@ GameObject:
   - component: {fileID: 556998460}
   - component: {fileID: 556998459}
   - component: {fileID: 556998458}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5001,7 +4907,7 @@ GameObject:
   - component: {fileID: 575015339}
   - component: {fileID: 575015338}
   - component: {fileID: 575015337}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5093,7 +4999,7 @@ GameObject:
   - component: {fileID: 592313971}
   - component: {fileID: 592313970}
   - component: {fileID: 592313969}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5185,7 +5091,7 @@ GameObject:
   - component: {fileID: 592975826}
   - component: {fileID: 592975825}
   - component: {fileID: 592975824}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5279,7 +5185,7 @@ GameObject:
   - component: {fileID: 598825913}
   - component: {fileID: 598825912}
   m_Layer: 0
-  m_Name: Lab Doors <Dont move this shit>
+  m_Name: Lab Doors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5371,11 +5277,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 598825911}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.5, z: -20.5}
+  m_LocalPosition: {x: 0, y: 1, z: 21.5}
   m_LocalScale: {x: 10, y: 3, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 736735889}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &614289545
 GameObject:
@@ -5389,7 +5295,7 @@ GameObject:
   - component: {fileID: 614289549}
   - component: {fileID: 614289548}
   - component: {fileID: 614289547}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5481,7 +5387,7 @@ GameObject:
   - component: {fileID: 640533523}
   - component: {fileID: 640533522}
   - component: {fileID: 640533521}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5735,7 +5641,7 @@ GameObject:
   - component: {fileID: 650962601}
   - component: {fileID: 650962600}
   - component: {fileID: 650962599}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5827,7 +5733,7 @@ GameObject:
   - component: {fileID: 653050682}
   - component: {fileID: 653050681}
   - component: {fileID: 653050680}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5919,7 +5825,7 @@ GameObject:
   - component: {fileID: 662873826}
   - component: {fileID: 662873825}
   - component: {fileID: 662873824}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6011,7 +5917,7 @@ GameObject:
   - component: {fileID: 675963335}
   - component: {fileID: 675963334}
   - component: {fileID: 675963333}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6103,7 +6009,7 @@ GameObject:
   - component: {fileID: 698680858}
   - component: {fileID: 698680857}
   - component: {fileID: 698680856}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6195,7 +6101,7 @@ GameObject:
   - component: {fileID: 702413337}
   - component: {fileID: 702413336}
   - component: {fileID: 702413335}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6349,7 +6255,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 8.035e-42, y: 6e-44, z: 0.23284687, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -6379,7 +6285,7 @@ GameObject:
   - component: {fileID: 708487142}
   - component: {fileID: 708487141}
   - component: {fileID: 708487140}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Water Tank (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6615,7 +6521,7 @@ GameObject:
   - component: {fileID: 717362706}
   - component: {fileID: 717362705}
   - component: {fileID: 717362704}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6713,7 +6619,7 @@ GameObject:
   - component: {fileID: 727319961}
   - component: {fileID: 727319960}
   - component: {fileID: 727319959}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6805,7 +6711,7 @@ GameObject:
   - component: {fileID: 733413544}
   - component: {fileID: 733413543}
   - component: {fileID: 733413542}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6916,7 +6822,7 @@ Transform:
   - {fileID: 1066121335}
   - {fileID: 229537494}
   - {fileID: 26324954}
-  - {fileID: 847260536}
+  - {fileID: 598825916}
   m_Father: {fileID: 2032513039}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7024,7 +6930,7 @@ GameObject:
   - component: {fileID: 754249287}
   - component: {fileID: 754249286}
   - component: {fileID: 754249285}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Water Tank (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7116,7 +7022,7 @@ GameObject:
   - component: {fileID: 755075165}
   - component: {fileID: 755075164}
   - component: {fileID: 755075163}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7283,7 +7189,7 @@ GameObject:
   - component: {fileID: 762526546}
   - component: {fileID: 762526545}
   - component: {fileID: 762526544}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7455,62 +7361,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774888009}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &776336290
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 776336292}
-  - component: {fileID: 776336291}
-  m_Layer: 0
-  m_Name: Timeline
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!320 &776336291
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 776336290}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 164b64dbcce310546ba39558ec181f54, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: -2120705648781704107, guid: 164b64dbcce310546ba39558ec181f54, type: 2}
-    value: {fileID: 287143711}
-  - key: {fileID: 7583239425634064353, guid: 164b64dbcce310546ba39558ec181f54, type: 2}
-    value: {fileID: 963194230}
-  - key: {fileID: 3930593788398614085, guid: 164b64dbcce310546ba39558ec181f54, type: 2}
-    value: {fileID: 598825912}
-  - key: {fileID: -2806737591629949620, guid: 164b64dbcce310546ba39558ec181f54, type: 2}
-    value: {fileID: 963194225}
-  m_ExposedReferences:
-    m_References: []
---- !u!4 &776336292
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 776336290}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -48.116173, y: 21.523167, z: -114.903244}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 430612655}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &813551634
 GameObject:
   m_ObjectHideFlags: 0
@@ -7523,7 +7373,7 @@ GameObject:
   - component: {fileID: 813551638}
   - component: {fileID: 813551637}
   - component: {fileID: 813551636}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Water Tank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7690,7 +7540,7 @@ GameObject:
   - component: {fileID: 839860020}
   - component: {fileID: 839860019}
   - component: {fileID: 839860018}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7875,7 +7725,7 @@ GameObject:
   - component: {fileID: 841752720}
   - component: {fileID: 841752719}
   - component: {fileID: 841752718}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7967,7 +7817,7 @@ GameObject:
   - component: {fileID: 841950046}
   - component: {fileID: 841950045}
   - component: {fileID: 841950044}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8047,38 +7897,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841950042}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &847260535
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 847260536}
-  m_Layer: 0
-  m_Name: Lab Doors
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &847260536
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 847260535}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 21}
-  m_LocalScale: {x: 2, y: 3, z: 1}
-  m_Children:
-  - {fileID: 201093981}
-  - {fileID: 1714128658}
-  m_Father: {fileID: 736735889}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &850847510
 GameObject:
   m_ObjectHideFlags: 0
@@ -8091,7 +7909,7 @@ GameObject:
   - component: {fileID: 850847514}
   - component: {fileID: 850847513}
   - component: {fileID: 850847512}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8183,7 +8001,7 @@ GameObject:
   - component: {fileID: 851629040}
   - component: {fileID: 851629039}
   - component: {fileID: 851629038}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8275,7 +8093,7 @@ GameObject:
   - component: {fileID: 855244974}
   - component: {fileID: 855244973}
   - component: {fileID: 855244972}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8367,7 +8185,7 @@ GameObject:
   - component: {fileID: 862916763}
   - component: {fileID: 862916762}
   - component: {fileID: 862916761}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8459,7 +8277,7 @@ GameObject:
   - component: {fileID: 867796955}
   - component: {fileID: 867796954}
   - component: {fileID: 867796953}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8643,7 +8461,7 @@ GameObject:
   - component: {fileID: 892224648}
   - component: {fileID: 892224647}
   - component: {fileID: 892224646}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8920,7 +8738,7 @@ GameObject:
   - component: {fileID: 908534665}
   - component: {fileID: 908534664}
   - component: {fileID: 908534663}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9092,109 +8910,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 944050185}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &963194225
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 963194228}
-  - component: {fileID: 963194227}
-  - component: {fileID: 963194226}
-  - component: {fileID: 963194230}
-  m_Layer: 0
-  m_Name: Intro Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &963194226
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
---- !u!20 &963194227
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.1
-  far clip plane: 5000
-  field of view: 40
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &963194228
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.16, y: 0.47, z: -46.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 361523235}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &963194230
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &968332467
 GameObject:
   m_ObjectHideFlags: 0
@@ -9207,7 +8922,7 @@ GameObject:
   - component: {fileID: 968332471}
   - component: {fileID: 968332470}
   - component: {fileID: 968332469}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9299,7 +9014,7 @@ GameObject:
   - component: {fileID: 968916460}
   - component: {fileID: 968916459}
   - component: {fileID: 968916458}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9391,7 +9106,7 @@ GameObject:
   - component: {fileID: 991409305}
   - component: {fileID: 991409304}
   - component: {fileID: 991409303}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9483,7 +9198,7 @@ GameObject:
   - component: {fileID: 1014905541}
   - component: {fileID: 1014905540}
   - component: {fileID: 1014905539}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9575,7 +9290,7 @@ GameObject:
   - component: {fileID: 1023466511}
   - component: {fileID: 1023466510}
   - component: {fileID: 1023466509}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9673,7 +9388,7 @@ GameObject:
   - component: {fileID: 1032989196}
   - component: {fileID: 1032989195}
   - component: {fileID: 1032989194}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9765,7 +9480,7 @@ GameObject:
   - component: {fileID: 1033345123}
   - component: {fileID: 1033345122}
   - component: {fileID: 1033345121}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9857,7 +9572,7 @@ GameObject:
   - component: {fileID: 1049902533}
   - component: {fileID: 1049902532}
   - component: {fileID: 1049902531}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9949,7 +9664,7 @@ GameObject:
   - component: {fileID: 1052190469}
   - component: {fileID: 1052190468}
   - component: {fileID: 1052190467}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10041,7 +9756,7 @@ GameObject:
   - component: {fileID: 1054824737}
   - component: {fileID: 1054824736}
   - component: {fileID: 1054824735}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Water Tank (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10133,7 +9848,7 @@ GameObject:
   - component: {fileID: 1055451849}
   - component: {fileID: 1055451848}
   - component: {fileID: 1055451847}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10225,7 +9940,7 @@ GameObject:
   - component: {fileID: 1055569954}
   - component: {fileID: 1055569953}
   - component: {fileID: 1055569952}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10325,7 +10040,7 @@ PrefabInstance:
     - target: {fileID: 1011332406557021382, guid: 8ecc4399508ac8548b19930f6147df57,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1011332406557021382, guid: 8ecc4399508ac8548b19930f6147df57,
         type: 3}
@@ -10541,7 +10256,7 @@ GameObject:
   - component: {fileID: 1087221301}
   - component: {fileID: 1087221300}
   - component: {fileID: 1087221299}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10633,7 +10348,7 @@ GameObject:
   - component: {fileID: 1087253870}
   - component: {fileID: 1087253869}
   - component: {fileID: 1087253868}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10794,7 +10509,7 @@ GameObject:
   - component: {fileID: 1097303986}
   - component: {fileID: 1097303985}
   - component: {fileID: 1097303984}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10886,7 +10601,7 @@ GameObject:
   - component: {fileID: 1099251563}
   - component: {fileID: 1099251562}
   - component: {fileID: 1099251561}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11027,7 +10742,7 @@ GameObject:
   - component: {fileID: 1123490492}
   - component: {fileID: 1123490491}
   - component: {fileID: 1123490490}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11116,7 +10831,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1126861247}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelfs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11304,7 +11019,7 @@ GameObject:
   - component: {fileID: 1148115928}
   - component: {fileID: 1148115927}
   - component: {fileID: 1148115926}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11396,7 +11111,7 @@ GameObject:
   - component: {fileID: 1164610908}
   - component: {fileID: 1164610907}
   - component: {fileID: 1164610906}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11581,7 +11296,7 @@ GameObject:
   - component: {fileID: 1176209752}
   - component: {fileID: 1176209751}
   - component: {fileID: 1176209750}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11673,7 +11388,7 @@ GameObject:
   - component: {fileID: 1192022128}
   - component: {fileID: 1192022127}
   - component: {fileID: 1192022126}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11765,7 +11480,7 @@ GameObject:
   - component: {fileID: 1216428768}
   - component: {fileID: 1216428767}
   - component: {fileID: 1216428766}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11860,7 +11575,7 @@ PrefabInstance:
     - target: {fileID: 3853792311777054969, guid: 0ca225829da192c49840c2be08a3fab1,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2209976623855966932, guid: 0ca225829da192c49840c2be08a3fab1,
         type: 3}
@@ -11900,7 +11615,7 @@ PrefabInstance:
     - target: {fileID: 2209976623855966932, guid: 0ca225829da192c49840c2be08a3fab1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2209976623855966932, guid: 0ca225829da192c49840c2be08a3fab1,
         type: 3}
@@ -11981,7 +11696,7 @@ GameObject:
   - component: {fileID: 1224998449}
   - component: {fileID: 1224998448}
   - component: {fileID: 1224998447}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12073,7 +11788,7 @@ GameObject:
   - component: {fileID: 1233344720}
   - component: {fileID: 1233344719}
   - component: {fileID: 1233344718}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12165,7 +11880,7 @@ GameObject:
   - component: {fileID: 1233670026}
   - component: {fileID: 1233670025}
   - component: {fileID: 1233670024}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12383,7 +12098,7 @@ GameObject:
   - component: {fileID: 1256685686}
   - component: {fileID: 1256685685}
   - component: {fileID: 1256685684}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Water Tank (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12475,7 +12190,7 @@ GameObject:
   - component: {fileID: 1268683759}
   - component: {fileID: 1268683758}
   - component: {fileID: 1268683757}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12580,7 +12295,7 @@ PrefabInstance:
     - target: {fileID: 4011468209159169652, guid: 7bf70dcf1c049dc488ab0492338983b5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -45.923145
+      value: -18.962
       objectReference: {fileID: 0}
     - target: {fileID: 4011468209159169652, guid: 7bf70dcf1c049dc488ab0492338983b5,
         type: 3}
@@ -12683,6 +12398,11 @@ PrefabInstance:
       propertyPath: rotationSpeed
       value: 240
       objectReference: {fileID: 0}
+    - target: {fileID: 4011468209159169657, guid: 7bf70dcf1c049dc488ab0492338983b5,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bf70dcf1c049dc488ab0492338983b5, type: 3}
 --- !u!1 &1273012334
@@ -12697,7 +12417,7 @@ GameObject:
   - component: {fileID: 1273012338}
   - component: {fileID: 1273012337}
   - component: {fileID: 1273012336}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12789,7 +12509,7 @@ GameObject:
   - component: {fileID: 1278219524}
   - component: {fileID: 1278219523}
   - component: {fileID: 1278219522}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12881,7 +12601,7 @@ GameObject:
   - component: {fileID: 1313408916}
   - component: {fileID: 1313408915}
   - component: {fileID: 1313408914}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12973,7 +12693,7 @@ GameObject:
   - component: {fileID: 1314397530}
   - component: {fileID: 1314397529}
   - component: {fileID: 1314397528}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13065,7 +12785,7 @@ GameObject:
   - component: {fileID: 1322785074}
   - component: {fileID: 1322785073}
   - component: {fileID: 1322785072}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13249,7 +12969,7 @@ GameObject:
   - component: {fileID: 1332594897}
   - component: {fileID: 1332594896}
   - component: {fileID: 1332594895}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13341,7 +13061,7 @@ GameObject:
   - component: {fileID: 1334039333}
   - component: {fileID: 1334039332}
   - component: {fileID: 1334039331}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13433,7 +13153,7 @@ GameObject:
   - component: {fileID: 1347337465}
   - component: {fileID: 1347337464}
   - component: {fileID: 1347337463}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13525,7 +13245,7 @@ GameObject:
   - component: {fileID: 1350837795}
   - component: {fileID: 1350837794}
   - component: {fileID: 1350837793}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Water Tank (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13617,7 +13337,7 @@ GameObject:
   - component: {fileID: 1352562071}
   - component: {fileID: 1352562070}
   - component: {fileID: 1352562069}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13709,7 +13429,7 @@ GameObject:
   - component: {fileID: 1354993493}
   - component: {fileID: 1354993492}
   - component: {fileID: 1354993491}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13876,7 +13596,7 @@ GameObject:
   - component: {fileID: 1377463866}
   - component: {fileID: 1377463865}
   - component: {fileID: 1377463864}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14061,7 +13781,7 @@ GameObject:
   - component: {fileID: 1381278439}
   - component: {fileID: 1381278438}
   - component: {fileID: 1381278437}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14153,7 +13873,7 @@ GameObject:
   - component: {fileID: 1382302471}
   - component: {fileID: 1382302470}
   - component: {fileID: 1382302469}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14337,7 +14057,7 @@ GameObject:
   - component: {fileID: 1393738733}
   - component: {fileID: 1393738732}
   - component: {fileID: 1393738731}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14429,7 +14149,7 @@ GameObject:
   - component: {fileID: 1402538004}
   - component: {fileID: 1402538003}
   - component: {fileID: 1402538002}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14596,7 +14316,7 @@ GameObject:
   - component: {fileID: 1408650523}
   - component: {fileID: 1408650522}
   - component: {fileID: 1408650521}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14688,7 +14408,7 @@ GameObject:
   - component: {fileID: 1409348416}
   - component: {fileID: 1409348415}
   - component: {fileID: 1409348414}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14965,7 +14685,7 @@ GameObject:
   - component: {fileID: 1417176478}
   - component: {fileID: 1417176477}
   - component: {fileID: 1417176476}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15054,7 +14774,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1420169867}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Water Tanks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15096,7 +14816,7 @@ GameObject:
   - component: {fileID: 1427541869}
   - component: {fileID: 1427541868}
   - component: {fileID: 1427541867}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15355,7 +15075,7 @@ GameObject:
   - component: {fileID: 1459193034}
   - component: {fileID: 1459193033}
   - component: {fileID: 1459193032}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15447,7 +15167,7 @@ GameObject:
   - component: {fileID: 1476563141}
   - component: {fileID: 1476563140}
   - component: {fileID: 1476563139}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15536,7 +15256,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1478694910}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low Whites
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15796,7 +15516,7 @@ GameObject:
   - component: {fileID: 1510647457}
   - component: {fileID: 1510647456}
   - component: {fileID: 1510647455}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16266,7 +15986,7 @@ GameObject:
   - component: {fileID: 1562855719}
   - component: {fileID: 1562855718}
   - component: {fileID: 1562855717}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16358,7 +16078,7 @@ GameObject:
   - component: {fileID: 1580567760}
   - component: {fileID: 1580567759}
   - component: {fileID: 1580567758}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16450,7 +16170,7 @@ GameObject:
   - component: {fileID: 1585472388}
   - component: {fileID: 1585472387}
   - component: {fileID: 1585472386}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16634,7 +16354,7 @@ GameObject:
   - component: {fileID: 1614270218}
   - component: {fileID: 1614270217}
   - component: {fileID: 1614270216}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16726,7 +16446,7 @@ GameObject:
   - component: {fileID: 1623251494}
   - component: {fileID: 1623251493}
   - component: {fileID: 1623251492}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16911,7 +16631,7 @@ GameObject:
   - component: {fileID: 1662530820}
   - component: {fileID: 1662530819}
   - component: {fileID: 1662530818}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17003,7 +16723,7 @@ GameObject:
   - component: {fileID: 1670117888}
   - component: {fileID: 1670117887}
   - component: {fileID: 1670117886}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17095,7 +16815,7 @@ GameObject:
   - component: {fileID: 1676050810}
   - component: {fileID: 1676050809}
   - component: {fileID: 1676050808}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17187,7 +16907,7 @@ GameObject:
   - component: {fileID: 1683749869}
   - component: {fileID: 1683749868}
   - component: {fileID: 1683749867}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17371,7 +17091,7 @@ GameObject:
   - component: {fileID: 1704790557}
   - component: {fileID: 1704790556}
   - component: {fileID: 1704790555}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17460,7 +17180,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1705513995}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17569,7 +17289,7 @@ GameObject:
   - component: {fileID: 1710747578}
   - component: {fileID: 1710747577}
   - component: {fileID: 1710747576}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17649,98 +17369,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710747574}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1714128654
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1714128658}
-  - component: {fileID: 1714128657}
-  - component: {fileID: 1714128656}
-  - component: {fileID: 1714128655}
-  m_Layer: 0
-  m_Name: Lab Doors (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &1714128655
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1714128654}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1714128656
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1714128654}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1714128657
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1714128654}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1714128658
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1714128654}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2, y: -0.008, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 847260536}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1718382222
 GameObject:
   m_ObjectHideFlags: 0
@@ -17753,7 +17381,7 @@ GameObject:
   - component: {fileID: 1718382226}
   - component: {fileID: 1718382225}
   - component: {fileID: 1718382224}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17943,7 +17571,7 @@ GameObject:
   - component: {fileID: 1769455168}
   - component: {fileID: 1769455167}
   - component: {fileID: 1769455166}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18035,7 +17663,7 @@ GameObject:
   - component: {fileID: 1770629789}
   - component: {fileID: 1770629788}
   - component: {fileID: 1770629787}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18219,7 +17847,7 @@ GameObject:
   - component: {fileID: 1772006187}
   - component: {fileID: 1772006186}
   - component: {fileID: 1772006185}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18404,7 +18032,7 @@ GameObject:
   - component: {fileID: 1795843769}
   - component: {fileID: 1795843768}
   - component: {fileID: 1795843767}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18594,7 +18222,7 @@ GameObject:
   - component: {fileID: 1811829428}
   - component: {fileID: 1811829427}
   - component: {fileID: 1811829426}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18779,7 +18407,7 @@ GameObject:
   - component: {fileID: 1814452969}
   - component: {fileID: 1814452968}
   - component: {fileID: 1814452967}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18871,7 +18499,7 @@ GameObject:
   - component: {fileID: 1817068279}
   - component: {fileID: 1817068278}
   - component: {fileID: 1817068277}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18963,7 +18591,7 @@ GameObject:
   - component: {fileID: 1820473558}
   - component: {fileID: 1820473557}
   - component: {fileID: 1820473556}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19124,7 +18752,7 @@ GameObject:
   - component: {fileID: 1834191549}
   - component: {fileID: 1834191548}
   - component: {fileID: 1834191547}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19216,7 +18844,7 @@ GameObject:
   - component: {fileID: 1843205848}
   - component: {fileID: 1843205847}
   - component: {fileID: 1843205846}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19308,7 +18936,7 @@ GameObject:
   - component: {fileID: 1854278199}
   - component: {fileID: 1854278198}
   - component: {fileID: 1854278197}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Water Tank (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19567,7 +19195,7 @@ GameObject:
   - component: {fileID: 1888251964}
   - component: {fileID: 1888251963}
   - component: {fileID: 1888251962}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19659,7 +19287,7 @@ GameObject:
   - component: {fileID: 1898965736}
   - component: {fileID: 1898965735}
   - component: {fileID: 1898965734}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19757,7 +19385,7 @@ GameObject:
   - component: {fileID: 1904207513}
   - component: {fileID: 1904207512}
   - component: {fileID: 1904207511}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19849,7 +19477,7 @@ GameObject:
   - component: {fileID: 1915607454}
   - component: {fileID: 1915607453}
   - component: {fileID: 1915607452}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19984,7 +19612,7 @@ PrefabInstance:
     - target: {fileID: 6594850438362495134, guid: cf9505a1b714b3641b81b176f71e256e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6594850438362495134, guid: cf9505a1b714b3641b81b176f71e256e,
         type: 3}
@@ -20065,7 +19693,7 @@ GameObject:
   - component: {fileID: 1926636416}
   - component: {fileID: 1926636415}
   - component: {fileID: 1926636414}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20232,7 +19860,7 @@ GameObject:
   - component: {fileID: 1942259904}
   - component: {fileID: 1942259903}
   - component: {fileID: 1942259902}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20324,7 +19952,7 @@ GameObject:
   - component: {fileID: 1959940709}
   - component: {fileID: 1959940708}
   - component: {fileID: 1959940707}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20422,7 +20050,7 @@ GameObject:
   - component: {fileID: 1983503048}
   - component: {fileID: 1983503047}
   - component: {fileID: 1983503046}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20607,7 +20235,7 @@ GameObject:
   - component: {fileID: 1988891377}
   - component: {fileID: 1988891376}
   - component: {fileID: 1988891375}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20699,7 +20327,7 @@ GameObject:
   - component: {fileID: 1991608628}
   - component: {fileID: 1991608627}
   - component: {fileID: 1991608626}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20834,7 +20462,7 @@ PrefabInstance:
     - target: {fileID: 6818425091800297531, guid: 212833b7229ca91448b4673225d19fad,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6818425091800297531, guid: 212833b7229ca91448b4673225d19fad,
         type: 3}
@@ -20875,7 +20503,7 @@ GameObject:
   - component: {fileID: 2008080390}
   - component: {fileID: 2008080389}
   - component: {fileID: 2008080388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21072,7 +20700,7 @@ GameObject:
   - component: {fileID: 2033682227}
   - component: {fileID: 2033682226}
   - component: {fileID: 2033682225}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21164,7 +20792,7 @@ GameObject:
   - component: {fileID: 2037142580}
   - component: {fileID: 2037142579}
   - component: {fileID: 2037142578}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21256,7 +20884,7 @@ GameObject:
   - component: {fileID: 2042461524}
   - component: {fileID: 2042461523}
   - component: {fileID: 2042461522}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21348,7 +20976,7 @@ GameObject:
   - component: {fileID: 2042566746}
   - component: {fileID: 2042566745}
   - component: {fileID: 2042566744}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21515,7 +21143,7 @@ GameObject:
   - component: {fileID: 2053080498}
   - component: {fileID: 2053080497}
   - component: {fileID: 2053080496}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21867,7 +21495,7 @@ GameObject:
   - component: {fileID: 2086132114}
   - component: {fileID: 2086132113}
   - component: {fileID: 2086132112}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Low White (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22150,7 +21778,7 @@ GameObject:
   - component: {fileID: 2099145000}
   - component: {fileID: 2099144999}
   - component: {fileID: 2099144998}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22334,7 +21962,7 @@ GameObject:
   - component: {fileID: 2109272365}
   - component: {fileID: 2109272364}
   - component: {fileID: 2109272363}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22426,7 +22054,7 @@ GameObject:
   - component: {fileID: 2111872607}
   - component: {fileID: 2111872606}
   - component: {fileID: 2111872605}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bookshelf (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22518,7 +22146,7 @@ GameObject:
   - component: {fileID: 2111880530}
   - component: {fileID: 2111880529}
   - component: {fileID: 2111880528}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22865,7 +22493,7 @@ GameObject:
   - component: {fileID: 2140912369}
   - component: {fileID: 2140912368}
   - component: {fileID: 2140912367}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}

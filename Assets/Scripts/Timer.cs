@@ -26,7 +26,6 @@ public class Timer : MonoBehaviour
     {
         if (actualTime > 0)
         {
-            Debug.Log("Actual time:" + actualTime);
             updateTimerText.UpdateTime(actualTime);
             actualTime = actualTime - Time.deltaTime;
         }
