@@ -13,6 +13,7 @@ public class GameOver : MonoBehaviour
 
     public void ResetGame()
     {
-        SceneManager.LoadScene(0);
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(1);
     }
 }

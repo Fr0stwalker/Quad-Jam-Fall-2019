@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1607249899}
   m_Layer: 0
   m_Name: Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,15 +25,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1607249897}
-  m_LocalRotation: {x: -0.06480048, y: -0.00931586, z: -0.001256584, w: -0.997854}
-  m_LocalPosition: {x: -0.15242624, y: 1.6810169, z: -2.945675}
+  m_LocalRotation: {x: -0.19212392, y: -0.009078066, z: -0.0024398917, w: -0.9813257}
+  m_LocalPosition: {x: -0.15242624, y: 2.44, z: -3.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2730439297146280694}
   - {fileID: 1897973893}
   m_Father: {fileID: 4011468209159169652}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 22.150002, y: 1.1600001, z: 0.512}
 --- !u!20 &1607249900
 Camera:
   m_ObjectHideFlags: 0
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 1897973894}
   m_Layer: 0
   m_Name: Sound Effects
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -225,6 +225,7 @@ GameObject:
   - component: {fileID: 4011468209159169658}
   - component: {fileID: 4011468209159169657}
   - component: {fileID: 4011468209159169662}
+  - component: {fileID: 287143711}
   m_Layer: 0
   m_Name: Ghust (Full Rotation)
   m_TagString: Player
@@ -241,7 +242,7 @@ Transform:
   m_GameObject: {fileID: 4011468209159169656}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7, y: 0, z: -31}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 1607249898}
   - {fileID: 5511199048503968178}
@@ -303,11 +304,11 @@ CapsuleCollider:
   m_GameObject: {fileID: 4011468209159169656}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
-  m_Radius: 0.5
-  m_Height: 2
+  m_Enabled: 1
+  m_Radius: 0.8
+  m_Height: 3
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -0.5, z: 0}
 --- !u!114 &4011468209159169662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -320,9 +321,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05407c8a115d6b147b45f8689ed11fbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
-  rotationSpeed: 60
+  speed: 2.4
+  rotationSpeed: 240
   stop: 0
+--- !u!95 &287143711
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4011468209159169656}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6014552055304286721
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,7 +355,7 @@ GameObject:
   - component: {fileID: 8064081620600404356}
   m_Layer: 0
   m_Name: Main Music
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -462,6 +482,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: ghost
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c58a82c5f2a33b84fba38ab6e6edcc33,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: -7851109966167212324, guid: c58a82c5f2a33b84fba38ab6e6edcc33,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: -7684148973695718200, guid: c58a82c5f2a33b84fba38ab6e6edcc33,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c58a82c5f2a33b84fba38ab6e6edcc33,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -517,16 +552,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -3526720290628424368, guid: c58a82c5f2a33b84fba38ab6e6edcc33,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 3ceeefbbe9c85e8468a10f046593715b, type: 2}
     - target: {fileID: 948536105761458445, guid: c58a82c5f2a33b84fba38ab6e6edcc33,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9af67877f47bde74792880ea3f7230ff, type: 2}
+    - target: {fileID: -3526720290628424368, guid: c58a82c5f2a33b84fba38ab6e6edcc33,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3ceeefbbe9c85e8468a10f046593715b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c58a82c5f2a33b84fba38ab6e6edcc33, type: 3}
 --- !u!4 &5511199048503968178 stripped

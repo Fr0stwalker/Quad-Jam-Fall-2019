@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6715575826103111948
 Transform:
   m_ObjectHideFlags: 0
@@ -56,5 +56,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bcabb82f0b57b94cafe0991ff30fb00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minutes: 6
-  seconds: 12
+  minutes: 5
+  seconds: 0
+  gameOverCanvas: {fileID: 0}

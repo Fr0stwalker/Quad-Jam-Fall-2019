@@ -18,6 +18,8 @@ public class BallDudeMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        RaycastHit hit;
+
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), .5f) && timeSinceChangedRotation>=1f)
         {
             int randomInt = Random.Range(0, 2);
@@ -29,6 +31,23 @@ public class BallDudeMovement : MonoBehaviour
             else
             {
                 transform.eulerAngles = new Vector3(0, transform.eulerAngles.y - 90f, 0);
+            }
+        }
+        else if (!Physics.Raycast(transform.position, transform.TransformDirection(Vector3.left), .5f) && timeSinceChangedRotation >= 2f)
+        {
+            timeSinceChangedRotation = 0f;
+            transform.eulerAngles = new Vector3(0, transform.eulerAngles.y - 90f, 0);
+        }
+        else if (!Physics.Raycast(transform.position, transform.TransformDirection(Vector3.right), .5f) && timeSinceChangedRotation >= 2f)
+        {
+            timeSinceChangedRotation = 0f;
+            transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + 90f, 0);
+        }
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 2.5f))
+        {
+            if (hit.collider.CompareTag("Player"))
+            {
+                transform.eulerAngles = new Vector3(0, transform.eulerAngles.y - 180f, 0);
             }
         }
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), .5f))
