@@ -21,9 +21,9 @@ public class BallDudeMovement : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 2.5f))
         {
-            timeSinceChangedRotation = 0f;
             if (hit.collider.CompareTag("Player"))
             {
+                timeSinceChangedRotation = 0f;
                 transform.eulerAngles = new Vector3(0, transform.eulerAngles.y - 180f, 0);
             }
         }
