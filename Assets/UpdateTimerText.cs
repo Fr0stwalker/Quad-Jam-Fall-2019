@@ -16,6 +16,13 @@ public class UpdateTimerText : MonoBehaviour
     {
         int minutes = Mathf.RoundToInt(time) / 60;
         int seconds = Mathf.RoundToInt(time) % 60;
-        text.text = minutes+":"+seconds;
+        if (seconds < 10)
+        {
+            text.text = minutes + ":0" + seconds;
+        }
+        else
+        {
+            text.text = minutes + ":" + seconds;
+        }
     }
 }
