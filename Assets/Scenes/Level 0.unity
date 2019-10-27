@@ -6960,7 +6960,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 6.7406024e+22, y: 8.620198e+9, z: 0.014798239, w: 1.6632139e+22}
+  m_BoundingSphereOverride: {x: -15, y: 160, z: 30, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -21565,9 +21565,9 @@ PrefabInstance:
     - target: {fileID: 6594850437554542658, guid: cf9505a1b714b3641b81b176f71e256e,
         type: 3}
       propertyPath: m_Text
-      value: 'You lost lol
+      value: 'Thanks for playing, share your highscore on twitter!
 
-        Checkout our other games :)'
+        Also checkout our other games :)'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf9505a1b714b3641b81b176f71e256e, type: 3}
