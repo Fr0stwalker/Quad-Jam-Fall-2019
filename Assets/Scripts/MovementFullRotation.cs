@@ -10,11 +10,11 @@ public class MovementFullRotation : MonoBehaviour
     public bool stop;
     void Update()
     {
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
             transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + (Input.GetAxis("Horizontal") * Time.deltaTime * rotationSpeed), 0);
         }
-        else if (Input.GetKey(KeyCode.LeftArrow))
+        else if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
 
             transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + (Input.GetAxis("Horizontal")*Time.deltaTime*rotationSpeed), 0);
