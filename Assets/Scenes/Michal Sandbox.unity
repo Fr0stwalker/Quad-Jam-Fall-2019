@@ -2072,6 +2072,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4011468209159169657, guid: 7bf70dcf1c049dc488ab0492338983b5,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8064081620600404356, guid: 7bf70dcf1c049dc488ab0492338983b5,
         type: 3}
       propertyPath: m_Volume
@@ -5589,7 +5594,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1194515854, guid: 09b23526499038c43ac74a8fdfef3d27, type: 3}
       propertyPath: minutes
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1194515854, guid: 09b23526499038c43ac74a8fdfef3d27, type: 3}
       propertyPath: seconds
