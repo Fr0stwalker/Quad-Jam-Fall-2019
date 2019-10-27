@@ -13,6 +13,10 @@ public class Score : MonoBehaviour
         updateScoreText.UpdateScore(score);
     }
 
+    public int GetScore()
+    {
+        return score;
+    }
     public void SetScore(int scoreIncrease)
     {
         score += scoreIncrease;

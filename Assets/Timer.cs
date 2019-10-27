@@ -7,6 +7,7 @@ public class Timer : MonoBehaviour
 {
     [SerializeField] private int minutes;
     [SerializeField] private int seconds;
+    [SerializeField] private GameObject gameOverCanvas;
 
     private float actualTime;
 
@@ -25,6 +26,10 @@ public class Timer : MonoBehaviour
             Debug.Log("Actual time:" + actualTime);
             updateTimerText.UpdateTime(actualTime);
             actualTime = actualTime - Time.deltaTime;
+        }
+        else
+        {
+            gameOverCanvas.SetActive(true);
         }
     }
 }
